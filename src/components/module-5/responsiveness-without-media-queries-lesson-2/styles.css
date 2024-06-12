@@ -1,0 +1,35 @@
+.container-1 {
+  background-color: hotpink;
+  padding: 12px;
+  border-radius: 12px;
+  width: 100%;
+  /* max-width: calc(50ch + 10vh); */
+  /* max-width: clamp(50%, 480px, 80%); */
+  /* width: 10px; */
+  /* max-width: max(50%, 480px); */
+
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  gap: 12px;
+  /* font-size: 12px; */
+
+  continer-name: wrapper;
+  container-type: inline-size;
+}
+
+.child {
+  /* flex-grow: 1; */
+
+  background-color: lightblue;
+  padding: 24px;
+  /* width: 20cqw; */
+  border-radius: 8px;
+}
+
+.nested-child {
+  background-color: lightgreen;
+  padding: 12px;
+  border-radius: 8px;
+  /* width: 40cqw; */
+}
